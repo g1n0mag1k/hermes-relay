@@ -1,0 +1,31 @@
+# Echo Contract — accepted 2026-09-30T05:07:36.900Z
+probe: help
+command: hermes-relay --help
+accepted_at: '2026-09-30T05:07:36.900Z'
+accepted_by: hermes-echo v0.2.0
+observations:
+  exit_code: 0
+  stdout: |
+    usage: hermes-relay [-h]
+                        {serve,install-service,status,version,keystore-init,keystore-public-key,export-receipts}
+                        ...
+
+    Hermes Relay — Local-first PHI detection and compliance evidence for MSPs
+
+    positional arguments:
+      {serve,install-service,status,version,keystore-init,keystore-public-key,export-receipts}
+        serve               Start Hermes Relay services
+        install-service     Install and enable systemd user service
+        status              Show service status
+        version             Show version
+        keystore-init       Create the gateway signing keystore at
+                            HERMES_GATEWAY_KEYSTORE_PATH
+        keystore-public-key
+                            Print the gateway signing public key (PEM) to stdout
+        export-receipts     Export a workspace's gateway receipts as ordered .cose
+                            files
+
+    options:
+      -h, --help            show this help message and exit
+  stderr: null
+notes: ''

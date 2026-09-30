@@ -1,0 +1,18 @@
+# Echo Contract — accepted 2026-09-30T05:06:59.610Z
+probe: install-service
+command: hermes-relay install-service
+accepted_at: '2026-09-30T05:06:59.610Z'
+accepted_by: hermes-echo v0.2.0
+observations:
+  exit_code: 1
+  stdout: |
+    Service unit written to /home/g1n0mag1k/.config/systemd/user/hermes-relay.service
+    systemctl error: Command '['systemctl', '--user', 'daemon-reload']' returned non-zero exit status 1.
+    Service file written. Enable manually with:
+      systemctl --user daemon-reload
+      systemctl --user enable hermes-relay
+      systemctl --user start hermes-relay
+  stderr: >
+    Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using
+    --machine=<user>@.host --user to connect to bus of other user)
+notes: ''

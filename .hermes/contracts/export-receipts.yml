@@ -1,0 +1,12 @@
+# Echo Contract — accepted 2026-09-30T05:07:00.566Z
+probe: export-receipts
+command: hermes-relay export-receipts
+accepted_at: '2026-09-30T05:07:00.566Z'
+accepted_by: hermes-echo v0.2.0
+observations:
+  exit_code: 2
+  stdout: null
+  stderr: |
+    usage: hermes-relay export-receipts [-h] --workspace WORKSPACE --out OUT
+    hermes-relay export-receipts: error: the following arguments are required: --workspace, --out
+notes: ''

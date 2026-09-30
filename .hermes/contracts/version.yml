@@ -1,0 +1,12 @@
+# Echo Contract — accepted 2026-09-30T05:06:59.797Z
+probe: version
+command: hermes-relay version
+accepted_at: '2026-09-30T05:06:59.797Z'
+accepted_by: hermes-echo v0.2.0
+observations:
+  exit_code: 0
+  stdout: |
+    Hermes Relay v1.0.0
+    hermesrelay.dev | Sui-Generis LLC
+  stderr: null
+notes: ''

@@ -1,0 +1,16 @@
+name: Hermes Echo
+on:
+  pull_request:
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: g1n0mag1k/hermes-echo@v0.2.0
+        with:
+          command: hermes-relay
