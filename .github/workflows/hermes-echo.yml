@@ -1,6 +1,9 @@
 name: Hermes Echo
 on:
   pull_request:
+permissions:
+  contents: read
+  pull-requests: write
 jobs:
   echo:
     runs-on: ubuntu-latest
