@@ -21,5 +21,5 @@ cbor2==6.1.4
 ecdsa==0.19.2
 # Security: pin vulnerable transitives
 anyio>=4.14.2
-requests>=2.33.0
+requests>=2.34.2
 urllib3>=2.7.0
