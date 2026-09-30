@@ -20,7 +20,7 @@ import textwrap
 from pathlib import Path
 
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 SYSTEMD_SERVICE = textwrap.dedent("""\
     [Unit]
