@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools==84.0.0", "wheel==0.48.0"]
+requires = ["setuptools==84.2.1", "wheel==0.48.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -20,17 +20,17 @@ classifiers = [
 dependencies = [
     "spacy==3.8.16",
     "presidio-analyzer==2.2.364",
-    "cryptography==50.0.1",
-    "pydantic==2.13.5",
-    "fastapi==0.141.1",
-    "uvicorn==0.53.0",
+    "cryptography==50.0.2",
+    "pydantic==2.14.1",
+    "fastapi==0.161.1",
+    "uvicorn==0.54.0",
     "httpx==0.28.1",
-    "python-dotenv==1.2.3",
-    "reportlab==5.0.1",
+    "python-dotenv==1.2.4",
+    "reportlab==5.1.0",
     # V2 receipt architecture
     "jcs==0.2.1",
     "pycose==1.1.0",
-    "cbor2==6.1.4",
+    "cbor2==6.1.5",
 ]
 
 [project.scripts]
